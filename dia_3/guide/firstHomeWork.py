@@ -1,69 +1,69 @@
-# # 1. Algoritmo para sumar dos números. 
-# #  - Algortimo simple
-# num1 = int(input("Ingrese el primer número: "))
-# num2 = int(input("Ingrese el segundo número: "))
-# suma = num1 + num2
-# print("La suma de", num1, "y", num2, "es:", suma)
+# 1. Algoritmo para sumar dos números. 
+#  - Algortimo simple
+num1 = int(input("Ingrese el primer número: "))
+num2 = int(input("Ingrese el segundo número: "))
+suma = num1 + num2
+print("La suma de", num1, "y", num2, "es:", suma)
 
-# # - Algoritmo con función
-# _num1 = int(input("Ingrese el primer número: "))
-# _num2 = int(input("Ingrese el segundo número: "))
-# def Suma(num1, num2):
-#     sum = num1 + num2
-#     return sum
-# print("La suma de", _num1, "y", _num2, "es:", Suma(_num1, _num2))
+# - Algoritmo con función
+_num1 = int(input("Ingrese el primer número: "))
+_num2 = int(input("Ingrese el segundo número: "))
+def Suma(num1, num2):
+    sum = num1 + num2
+    return sum
+print("La suma de", _num1, "y", _num2, "es:", Suma(_num1, _num2))
 
-# # 2. Algoritmo para encontrar el mayor de tres números. 
-# a = int(input("Ingrese el primer número: "))
-# b = int(input("Ingrese el segundo número: "))
-# c = int(input("Ingrese el tercer número: "))
+# 2. Algoritmo para encontrar el mayor de tres números. 
+a = int(input("Ingrese el primer número: "))
+b = int(input("Ingrese el segundo número: "))
+c = int(input("Ingrese el tercer número: "))
 
-# if a > b and a > c:
-#     mayor = a
-# elif b > c:
-#     mayor = b
-# else:
-#     mayor = c
-# print("El mayor de los tres números es:", mayor)
+if a > b and a > c:
+    mayor = a
+elif b > c:
+    mayor = b
+else:
+    mayor = c
+print("El mayor de los tres números es:", mayor)
 
-# # 3. Algoritmo para calcular el factorial de un número. 
-# n = int(input("Ingrese un número: "))
-# factorial = 1
-# for i in range(1, n + 1):
-#     factorial *= i
-# print("El factorial de", n, "es:", factorial)
+# 3. Algoritmo para calcular el factorial de un número. 
+n = int(input("Ingrese un número: "))
+factorial = 1
+for i in range(1, n + 1):
+    factorial *= i
+print("El factorial de", n, "es:", factorial)
 
-# # 4. Algoritmo para verificar si un número es primo. 
-# nIn = int(input("Ingrese un número: "))
+# 4. Algoritmo para verificar si un número es primo. 
+nIn = int(input("Ingrese un número: "))
 
-# if nIn <= 2:
-#     print("El número no es primo")
+if nIn <= 2:
+    print("El número no es primo")
 
-# for i in range(2, nIn - 1):
-#     if nIn % i == 0:
-#         print(f"El número {nIn} no es primo")
-#         break
-# else:
-#     print(f"El número es primo")
+for i in range(2, nIn - 1):
+    if nIn % i == 0:
+        print(f"El número {nIn} no es primo")
+        break
+else:
+    print(f"El número es primo")
 
 
-# # 5. Algoritmo para convertir grados centígrados a fahrenheit. 
-# tempC = float(input("Ingrese la temperatura en grados Celsius: "))
-# tempF = (tempC * 9/5) + 32
-# print(f"La temperatura en grados Fahrenheit es: {tempF}")
+# 5. Algoritmo para convertir grados centígrados a fahrenheit. 
+tempC = float(input("Ingrese la temperatura en grados Celsius: "))
+tempF = (tempC * 9/5) + 32
+print(f"La temperatura en grados Fahrenheit es: {tempF}")
 
-# # 6. Algoritmo para determinar si un número es par o impar. 
-# num = int(input("Ingrese un número: "))
-# if num % 2 == 0:
-#     print(f"El número {num} es par")
-# else:
-#     print(f"El número {num} es impar")
+# 6. Algoritmo para determinar si un número es par o impar. 
+num = int(input("Ingrese un número: "))
+if num % 2 == 0:
+    print(f"El número {num} es par")
+else:
+    print(f"El número {num} es impar")
 
-# # 7. Algoritmo para calcular el área de un triángulo. 
-# base = float(input("Ingrese la base del triángulo: "))
-# height = float(input("Ingrese la altura del triángulo: "))
-# area = (base * height) / 2
-# print(f"El área del triángulo es: {area}")
+# 7. Algoritmo para calcular el área de un triángulo. 
+base = float(input("Ingrese la base del triángulo: "))
+height = float(input("Ingrese la altura del triángulo: "))
+area = (base * height) / 2
+print(f"El área del triángulo es: {area}")
 
 # 8. Algoritmo para generar la serie de Fibonacci. 
 nt = int(input("Ingrese el número de términos de la serie de Fibonacci: "))
@@ -126,3 +126,4 @@ print(f"La hipotenusa del triángulo es: {hypotenuse}")
 
 
 # Algoritmo del teorema de Pascal
+
